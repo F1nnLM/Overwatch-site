@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap%22");
+
+* {
+    font-family: poppins;
+  }
+
+  body {
+    background-image: url(immagini/sfondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+  }
+
+  
+  .testata {
+    margin: auto;
+    width: 85%;
+    border: 1px;
+    padding: 10px;
+    height: 200px;
+    background-color: gray;
+  
+  
+  }
+  
+  #testata_img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100%;
+    max-width: 65%;
+  }
+  
+  .menu {
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  .menu a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.3s;
+  
+  }
+  
+  .menu a:hover {
+    background-color: rgba(211, 209, 208, 0.731);
+  
+  }
+  
+  .menu a:active {
+    background-color: rgba(173, 169, 168, 0.731);
+  
+  }
+  
+  .menu a.eroi {
+    background-color: orange;
+    color: black;
+  }
+  
+  
+  
+  .testata1 {
+  
+    margin: auto;
+    width: 86%;
+    border: 1px;
+    padding: 10px;
+    background-color: none;
+  
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    color: white;
+  }
