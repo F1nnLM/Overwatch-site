@@ -1,0 +1,681 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap%22");
+
+* {
+  font-family: poppins;
+}
+
+
+
+
+
+body {
+  background: url(immagini/sfondo1.jpg);
+  background-repeat: repeat;
+  background-size: 500%;
+}
+
+.testata {
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+  height: 200px;
+  background-color: gray;
+}
+
+#testata_img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 100%;
+  max-width: 65%;
+}
+
+.menu {
+  background-color: white;
+  overflow: hidden;
+}
+
+.menu a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.3s;
+
+}
+
+.menu a:hover {
+  background-color: rgba(211, 209, 208, 0.731);
+
+}
+
+.menu a:active {
+  background-color: rgba(173, 169, 168, 0.731);
+
+}
+
+.Comunità {
+  float: right;
+  position: absolute;
+}
+
+.testata1 {
+
+  margin: auto;
+  width: 86%;
+  border: 1px;
+  padding: 10px;
+  background-color: none;
+
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  color: white;
+}
+
+/*PAGINA PRINCIPALE*/
+
+.corpotesta {
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.corpo {
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+  height: 200px;
+  background-color: white;
+
+
+}
+
+.contenitore {
+  margin: auto;
+  width: 1000px;
+
+
+}
+
+.corpo1-2 {
+  font-size: 100px;
+}
+
+.corpo1-3 {
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+  height: 255px;
+  text-align: center;
+  background-color: orange;
+}
+
+#corpo1-3 {
+  color: white;
+  font-size: xx-large;
+}
+
+
+.immagine1 {
+  float: right;
+}
+
+.centrato {
+  width: 40%;
+  float: left;
+  padding-left: 2%;
+  top: 50%;
+  transform: translate(0, -50%);
+  position: relative;
+
+
+
+}
+
+.spazio-bottone {
+  bottom: 8%;
+  position: relative;
+}
+
+
+.pulsante {
+  background-color: rgba(236, 142, 11, 0.906);
+  color: white;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 00.3s;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+#pulsante1:active {
+  background-color:  rgba(189, 119, 21, 0.906);
+}
+
+.pulsante:hover {
+  background-color: rgba(218, 133, 13, 0.906);
+  color: white;
+}
+
+.spazio {
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+}
+
+.name {
+  text-align: center;
+
+}
+
+
+  /*EROI*/
+
+
+  .titolo {
+    margin: auto;
+    width: 85%;
+    border: 1px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+
+  }
+/*eroi*/
+
+/*ana*/
+  .ana {
+    background-color: white;
+    margin: auto;
+    width: 85%;
+    border: 1px;
+    padding: 10px;
+    background-color: none;
+    height: 46%;
+
+  }
+
+  #ana_img {
+    margin: 2%;
+    margin-left: 4%;
+
+
+  }
+
+
+
+  .table_ana {
+    font-size: 95%;
+    margin: 4%;
+    margin-top: 6.2%;
+    text-align: center;
+    background-color: orange;
+    width: 50%;
+    color: white;
+    border-radius: 7px;
+    padding: 0.5%;
+    float: right;
+  }
+
+ /*ashe*/
+  .ash {
+    background-color: white;
+    margin: auto;
+    width: 85%;
+    border: 1px;
+    padding: 10px;
+    background-color: none;
+    height: 46%;
+  }
+
+  #ash_img {
+    margin: 2%;
+    margin-left: 4%;
+  }
+
+  .table_ash {
+    font-size: 95%;
+    margin: 4%;
+    margin-top: 10%;
+    text-align: center;
+    background-color: orange;
+    width: 50%;
+    color: white;
+    border-radius: 7px;
+    padding: 0.5%;
+    float: right;
+  }
+
+
+ /*baptiste*/
+  .table_baptiste {
+    font-size: 95%;
+    margin: 4%;
+    margin-top: 6.2%;
+    text-align: center;
+    background-color: orange;
+    width: 50%;
+    color: white;
+    border-radius: 7px;
+    padding: 0.5%;
+    float: right;
+  }
+
+  .baptiste {
+    background-color: white;
+    margin: auto;
+    width: 85%;
+    border: 1px;
+    padding: 10px;
+    background-color: none;
+    height: 46%;
+  }
+
+  #baptiste_img {
+    margin: 2%;
+    margin-left: 4%;
+  }
+
+ /*bastion*/
+ .bastion {
+  background-color: white;
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+  background-color: none;
+  height: 46%;
+
+}
+
+#bastion_img {
+  margin: 2%;
+  margin-left: 4%;
+
+
+}
+
+
+
+.table_bastion {
+  font-size: 95%;
+  margin: 4%;
+  margin-top: 9%;
+  text-align: center;
+  background-color: orange;
+  width: 50%;
+  color: white;
+  border-radius: 7px;
+  padding: 0.5%;
+  float: right;
+}
+
+
+/*echo*/
+.echo {
+  background-color: white;
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+  background-color: none;
+  height: 46%;
+
+}
+
+#echo_img {
+  margin: 2%;
+  margin-left: 4%;
+
+
+}
+
+.table_echo {
+  font-size: 95%;
+  margin: 4%;
+  margin-top: 4.5%;
+  text-align: center;
+  background-color: orange;
+  width: 50%;
+  color: white;
+  border-radius: 7px;
+  padding: 0.5%;
+  float: right;
+}
+
+.fine {
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+  height: 225px;
+  text-align: center;
+  background-color: orange;
+}
+
+#testo-fine {
+  color: white;
+  font-size: xx-large;
+}
+
+.pulsante {
+  background-color: rgba(236, 142, 11, 0.906);
+  color: white;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 00.3s;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+#pulsante1:active {
+  background-color:  rgba(189, 119, 21, 0.906);
+}
+
+.pulsante:hover {
+  background-color: rgba(218, 133, 13, 0.906);
+  color: white;
+}
+
+/*EVENTI*/
+
+.titolo {
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+
+}
+
+.capodannolunare {
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+  height: 46%;
+
+}
+
+.archivi {
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+  height: 46%;
+}
+
+.ann {
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+  height: 46%;
+}
+
+.finepag {
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+  height: 225px;
+  text-align: center;
+  background-color: orange;
+}
+
+#testo-finepag {
+  color: white;
+  font-size: xx-large;
+}
+
+.pulsantea {
+  background-color: rgba(236, 142, 11, 0.906);
+  color: white;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 00.3s;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+#pulsanteb:active {
+  background-color:  rgba(189, 119, 21, 0.906);
+}
+
+.pulsantea:hover {
+  background-color: rgba(218, 133, 13, 0.906);
+  color: white;
+}
+
+/*MEDIA*/
+
+.corpotesta {
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+.fumetti {
+  margin: auto;
+  width: 93%;
+  border: 1px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+
+}
+.video {
+  margin: auto;
+  width: 80%;
+  border: 1px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+.musica {
+  margin: auto;
+  width: 50%;
+  border: 1px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+.screenshot {
+  margin: auto;
+  width: 80%;
+  border: 1px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+.illustrazioni {
+  margin: auto;
+  width: 80%;
+  border: 1px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+.button {
+  background-color: rgba(189, 119, 21, 0.906); 
+  border: none;
+  color: black;
+  padding: 1px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+  .button:hover {
+  background-color:rgba(218, 133, 13, 0.906);
+  color: black; 
+  }
+
+  /*NOTIZIE*/
+
+.corpotesta {
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.notizie1 {
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+background-color: white;
+}
+
+.elenco1 {
+  margin: auto;
+  border: none;
+  width: 85%;
+  padding: 10px;
+  background-color: white;
+  column-count:2;
+  text-align: center;
+  color: black;
+  text-decoration-line: none;
+} 
+
+.centrato1 {
+  text-align: center;
+}
+
+.button {
+  background-color: rgba(189, 119, 21, 0.906); 
+  border: none;
+  color: black;
+  padding: 1px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+  .button:hover {
+  background-color:rgba(218, 133, 13, 0.906);
+  color: black; 
+  }
+
+  /*PRODOTTI*/
+
+.corpotestaa1 {
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+
+.button2 {
+  background-color: rgba(189, 119, 21, 0.906); 
+  border: none;
+  color: black;
+  padding: 1px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color:rgba(218, 133, 13, 0.906);
+  color: black; 
+}
+.portachiavi {
+  margin: auto;
+  width: 85%;
+  border: 1px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+.button {
+  background-color: rgba(189, 119, 21, 0.906); 
+  border: none;
+  color: black;
+  padding: 1px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+  .button:hover {
+  background-color:rgba(218, 133, 13, 0.906);
+  color: black; 
+  }
+  .magliette {
+    margin: auto;
+    width: 85%;
+    border: 1px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+  }
+  .art {
+    margin: auto;
+    width: 85%;
+    border: 1px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+  }
+  .bottone2 {
+    margin: auto;
+    text-align: center;
+  }
