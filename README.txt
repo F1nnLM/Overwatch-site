@@ -1,5 +1,2 @@
-questo è un progetto scolastico e quindi starà in WIP fino al 6 novembre.
-NOTA: il sito e il codice sono in italiano, la traduzione in inglese avvera forse dopo il 6 novembre.
----------------------------------------------------------------------------------------------------------------
-this is a school project and therefore will stay in WIP until November 6th.
-NOTE: the site and the code are in Italian, the English translation may come true after November 6th.
+questo è un sito fatto per un progetto scolastico, io ho fatto le impostazione del sito, immaggine di testata, il menù, le pagine: gioco, eroi e eventi.
+invece, [Andrea](https://https://github.com/series600)
